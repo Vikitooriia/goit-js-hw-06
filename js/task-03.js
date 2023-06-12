@@ -20,8 +20,8 @@ const galleryItems = images.map((image, index) => {
   .join('');
 
   
-  galleryEl.style.dasplay  = "flex";
-  galleryEl.style.listStyle = "none";
-  galleryEl.style.gap = "16px";
+  gallery.style.dasplay  = "flex";
+  gallery.style.listStyle = "none";
+  gallery.style.gap = "16px";
 
-  galleryEl.insertAdjacentHTML ('beforeend' , galleryItems);
+  gallery.insertAdjacentHTML ('beforeend' , galleryItems);
