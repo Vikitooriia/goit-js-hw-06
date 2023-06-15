@@ -20,7 +20,7 @@ const galleryItems = images.map((image, index) => {
   .join('');
 
   
-  gallery.style.dasplay  = "flex";
+  gallery.style.display  = "flex";
   gallery.style.listStyle = "none";
   gallery.style.gap = "16px";
 
